@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Cadastrar</title>
+</head>
+<body>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="desafio_ilha.html">Desafio das Ilhas</a></li>
+            <li><a href="ilhas.html">Ilhas</a></li>
+        </ul>
+        
+        <div class="conta">
+            <a href="#">Login</a>
+            <a href="cadastrar.html">Cadastre-se</a>
+        </div>
+    </nav>
+        <main>
+            <div class="container-login">
+            
+                <form method="" class="cadastrar">
+                    <div class="div-cadas-usuario">
+                        <label for="usuario" class="label-usuario">Usuário:</label>
+                        <input type="text" name="usuario" id="usuario" required class="usuario"><br>
+                    </div>
+
+                    <div class="div-cadas-email">
+                        <label for="usuario" class="label-email">Email:</label>
+                        <input type="email" name="email" id="email" required class="email"><br>
+                    </div>
+
+                    <div class="div-cadas-senha">
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id=""senha required class="cadas-senha"><br>
+                    </div>
+
+                    <div class="div-cadas-nascimento">
+                        <label for="nascimento">Data de nascimento:</label>
+                        <input type="date" name="nascimento" id="nascimento" required min="1946-01-01" class="nascimento"><br>
+                    </div>
+
+                    <div class="div-cadas-sexo">
+                        <legend class="legend-sexo">Sexo:</legend>
+                        <input type="radio" name="sexo" id="masculino" value="Masculino" required class="sexo-masc">
+                        <label for="masculino" class="label-masc">Masculino</label>
+
+                        <input type="radio" name="sexo" id="feminino" value="Feminino" required class="sexo-fem">
+                        <label for="feminino" class="label-fem">Feminino</label><br>
+                    </div>
+
+                    <div class="div-cadas-sobre-voce">
+                        <label for="sobre">Sobre Você:</label><br>
+                        <textarea name="sobre" id="sobre" class="sobre-voce"></textarea><br>
+                    </div>
+
+                    <input type="submit" value="Cadastrar" class="submit-cadastrar">
+                </form>
+                
+            </div>
+        </main>
+
+        <footer>
+            <div class="redes-sociais">
+                <p>Siga-nos:</p>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+                <a href="#">X(Twitter)</a>
+                <a href="#">Youtube</a>
+            </div>
+
+            <div class="copyright">
+                <p>Pokémon and All Respective Names are Trademark & © of Nintendo 1996-2026</p>
+                <p>Essa página é de caráter exclusivamente acadêmico</p>
+            </div>
+        </footer>
+</body>
+</html>
